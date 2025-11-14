@@ -27,7 +27,7 @@ export default function ArcRaidersDonateSite() {
   ];
 
 useEffect(() => {
-  fetch("http://localhost:3001/news") // <-- вот сюда вставляем адрес локального server.js
+  fetch("https://sitetopdonationarcraiders.onrender.com/news")
     .then((r) => r.json())
     .then((data) => {
       if (data && data.articles) setNews(data.articles);
