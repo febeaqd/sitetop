@@ -140,8 +140,8 @@ useEffect(() => {
         </main>
 
         <footer className="footer">
-          <div>Made with ♥ — Modern 2025 UI</div>
-          <div className="muted tiny">Images: use official assets for publishing.</div>
+          <div>Все права зарегистрированы в дискорди PACANU</div>
+          <div className="muted tiny">Все изображэния под правами автора</div>
         </footer>
       </div>
     </div>
