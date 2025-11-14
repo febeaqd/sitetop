@@ -45,5 +45,5 @@ app.get("/news", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`RSS news proxy running at http://localhost:${PORT}/news`);
+  console.log(`RSS news proxy running on port ${PORT}`);
 });
