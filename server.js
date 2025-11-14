@@ -46,7 +46,8 @@ app.get("/news", async (req, res) => {
 // Отдаём React фронтенд
 app.use(express.static(path.join(__dirname, "dist"))); // или "build"
 
-app.get("/*", (req, res) => {
+// Для всех остальных маршрутов — RegExp вместо '*'
+app.get(/.*/, (req, res) => {
   res.sendFile(path.join(__dirname, "dist", "index.html")); // или "build/index.html"
 });
 
