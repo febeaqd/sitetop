@@ -11,7 +11,7 @@ const BACKGROUND_IMAGE_URL = "https://i.imgur.com/MqX3t4a.jpeg";
 const ARC_IMAGE_URL = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1808500/04baafaf64a5aa5f46ecda5d71889a4848dc0628/header.jpg?t=1762957298";
 const CRYPTO_ADDRESS = "0x4843e0bec33a2840f2a542ac08d7a2f75249f241";
 const TARGET_USD = 39.99;
-const PERCENT = 21;
+const PERCENT = 44;
 const RAISED_USD = +(TARGET_USD * (PERCENT / 100)).toFixed(2);
 
 export default function ArcRaidersDonateSite() {
