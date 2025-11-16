@@ -24,6 +24,7 @@ export default function ArcRaidersDonateSite() {
     { name: "алешенька", comment: "Немного, но от сердца" },
     { name: "анатолий жижовник", comment: "За хорошие стримы" },
     { name: "артур халтура", comment: "В топку ботов" },
+    { name: "сайман 1050ti", comment: "кенту на подогрев" },
   ];
 
 useEffect(() => {
